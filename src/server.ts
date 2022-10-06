@@ -12,12 +12,8 @@ response.send('Orientação ao futuro, trabalho em equipe, proatividade')
 });
 
 app.get('/aprendizados', (request, response) => {
-response.send('Aprender novos conehcimentos sobre programação')
+response.send('Aprender novos conhecimentos sobre programação')
  });
-
-app.get('/participantes', (request, response) => {
-response.send('Hello participator')
-});
 
 app.listen(port, () => {
 console.log(`Server is running atg port ${port}!`)
